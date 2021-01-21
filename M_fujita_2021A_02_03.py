@@ -10,7 +10,6 @@
 #
 
 import itertools
-from math import gcd
 
 itemList = ['1', '2', '11', '12']
 numRepeat = 3
