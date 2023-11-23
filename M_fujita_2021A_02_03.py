@@ -3,7 +3,7 @@
 #
 # M_fujita_2021A_02_03.py
 #
-# Copyright (c) 2021 shihashi
+# Copyright (c) 2021-2023 shihashi
 #
 # Released under the MIT license.
 # see https://opensource.org/licenses/mit-license.php
@@ -11,13 +11,7 @@
 
 import itertools
 
-itemList = ['1', '2', '11', '12']
-numRepeat = 3
+item_list = ['1', '2', '11', '12']
+num_repeat = 3
 
-
-def main():
-    print(len({int(''.join(x)) for x in itertools.product(itemList, repeat = numRepeat)}))
-
-
-if __name__ == '__main__':
-    main()
+print(len({int(''.join(x)) for x in itertools.product(item_list, repeat = num_repeat)}))
